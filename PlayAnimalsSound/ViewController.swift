@@ -45,31 +45,59 @@ class ViewController: UIViewController {
         }
     
     
-    //funzione animazione
+    //label
     
+    @IBOutlet var labelName: UILabel!
     
+    @IBOutlet var labelPig: UILabel!
+    @IBOutlet var labelDog: UILabel!
+    
+    @IBOutlet var labelCow: UILabel!
+    @IBOutlet var labelMonkey: UILabel!
     
     //bottoni
     @IBAction func cowButton(_ sender: UIButton) {
         print("cowPressed")
         playSound(nameOfSound: "cowSound")
+        labelName.text = "Cow"
+        labelCow.text = "♡"
+        labelDog.text = ""
+        
+        labelMonkey.text = ""
+        labelPig.text = ""
  
     
     }
     @IBAction func pigButton(_ sender: UIButton) {
         print("pigPressed")
         playSound(nameOfSound: "pigSound")
+        labelName.text = "Pig"
+        labelPig.text = "♡"
+        labelDog.text = ""
+        labelCow.text = ""
+        labelMonkey.text = ""
+        
     }
     
     @IBAction func monkeybutton(_ sender: UIButton) {
         print("monkeyPressed")
         playSound(nameOfSound: "monkeySound")
+        labelName.text = "Monkey"
+        labelMonkey.text = "♡"
+        labelDog.text = ""
+        labelCow.text = ""
+        labelPig.text = ""
     }
     
     @IBAction func dogButton(_ sender: UIButton) {
         
         print("dogPressed")
         playSound(nameOfSound: "dogSound")
+        labelName.text = "Dog"
+        labelDog.text = "♡"
+        labelCow.text = ""
+        labelMonkey.text = ""
+        labelPig.text = ""
 
     }
     
