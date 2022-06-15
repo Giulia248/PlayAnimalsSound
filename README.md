@@ -5,7 +5,8 @@ PlayAnimalsSound!
 Instructions
 Simply click an animal button to activate a sound
 
-[Uploading Schermata 2022-06-15 alle 16.50.28.png…]()
+![Schermata 2022-06-15 alle 16 50 28](https://user-images.githubusercontent.com/106954791/173858500-a131c04c-9a05-46f5-9f03-52c69a0fa2ca.png)
+
 
 You need to change the device orientation to : landscape right
 
