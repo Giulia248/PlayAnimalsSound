@@ -9,6 +9,9 @@
 import UIKit
 import AVFoundation
 
+
+
+
 class ViewController: UIViewController {
     
     //funzione di suono
@@ -20,7 +23,6 @@ class ViewController: UIViewController {
                 print("debug 2 ")
                 return
             }
-            
             
             do {
                 try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
@@ -42,19 +44,17 @@ class ViewController: UIViewController {
             }
         }
     
-    /*
-    func playSound(audio: String) {
-        let url = Bundle.main.url(forResource: audio, withExtension: "mp3")
-        player = try! AVAudioPlayer(contentsOf: url!)
-        player.play()
-     }
-    */
+    
+    //funzione animazione
+    
     
     
     //bottoni
     @IBAction func cowButton(_ sender: UIButton) {
         print("cowPressed")
         playSound(nameOfSound: "cowSound")
+ 
+    
     }
     @IBAction func pigButton(_ sender: UIButton) {
         print("pigPressed")
@@ -67,13 +67,11 @@ class ViewController: UIViewController {
     }
     
     @IBAction func dogButton(_ sender: UIButton) {
+        
         print("dogPressed")
         playSound(nameOfSound: "dogSound")
+
     }
-    
-    
-    
-    
     
     
     
@@ -94,7 +92,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        
     }
 
 
