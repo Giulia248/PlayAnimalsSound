@@ -56,9 +56,21 @@ class ViewController: UIViewController {
         print("cowPressed")
         playSound(nameOfSound: "cowSound")
     }
+    @IBAction func pigButton(_ sender: UIButton) {
+        print("pigPressed")
+        playSound(nameOfSound: "pigSound")
+    }
     
-
-
+    @IBAction func monkeybutton(_ sender: UIButton) {
+        print("monkeyPressed")
+        playSound(nameOfSound: "monkeySound")
+    }
+    
+    @IBAction func dogButton(_ sender: UIButton) {
+        print("dogPressed")
+        playSound(nameOfSound: "dogSound")
+    }
+    
     
     
     

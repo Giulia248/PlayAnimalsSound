@@ -14,6 +14,9 @@
 		CED2AE7F2859F1BE00DCF244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED2AE7E2859F1BE00DCF244 /* Assets.xcassets */; };
 		CED2AE822859F1BE00DCF244 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED2AE802859F1BE00DCF244 /* LaunchScreen.storyboard */; };
 		CED2AE8B285A087500DCF244 /* cowSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CED2AE8A285A087500DCF244 /* cowSound.mp3 */; };
+		CED2AE8D285A0A6400DCF244 /* pigSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CED2AE8C285A0A6400DCF244 /* pigSound.mp3 */; };
+		CED2AE8F285A0AE600DCF244 /* monkeySound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CED2AE8E285A0AE500DCF244 /* monkeySound.mp3 */; };
+		CED2AE91285A0B2000DCF244 /* dogSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CED2AE90285A0B2000DCF244 /* dogSound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		CED2AE812859F1BE00DCF244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CED2AE832859F1BE00DCF244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CED2AE8A285A087500DCF244 /* cowSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cowSound.mp3; sourceTree = "<group>"; };
+		CED2AE8C285A0A6400DCF244 /* pigSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pigSound.mp3; sourceTree = SOURCE_ROOT; };
+		CED2AE8E285A0AE500DCF244 /* monkeySound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = monkeySound.mp3; sourceTree = SOURCE_ROOT; };
+		CED2AE90285A0B2000DCF244 /* dogSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dogSound.mp3; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,9 @@
 		CED2AE89285A085E00DCF244 /* mp3 */ = {
 			isa = PBXGroup;
 			children = (
+				CED2AE8E285A0AE500DCF244 /* monkeySound.mp3 */,
+				CED2AE90285A0B2000DCF244 /* dogSound.mp3 */,
+				CED2AE8C285A0A6400DCF244 /* pigSound.mp3 */,
 				CED2AE8A285A087500DCF244 /* cowSound.mp3 */,
 			);
 			path = mp3;
@@ -139,7 +148,10 @@
 				CED2AE8B285A087500DCF244 /* cowSound.mp3 in Resources */,
 				CED2AE822859F1BE00DCF244 /* LaunchScreen.storyboard in Resources */,
 				CED2AE7F2859F1BE00DCF244 /* Assets.xcassets in Resources */,
+				CED2AE91285A0B2000DCF244 /* dogSound.mp3 in Resources */,
+				CED2AE8F285A0AE600DCF244 /* monkeySound.mp3 in Resources */,
 				CED2AE7D2859F1BA00DCF244 /* Main.storyboard in Resources */,
+				CED2AE8D285A0A6400DCF244 /* pigSound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
