@@ -20,6 +20,7 @@ how to use sounds
        
        //funzione di suono
       
+      import AVFoundation
       var player : AVAudioPlayer!
     func playSound(nameOfSound : String) {
          
