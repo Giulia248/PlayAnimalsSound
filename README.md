@@ -17,9 +17,10 @@ by clicking an animal the screen would display theyr name qnd a little heart
 
 how to use sounds
 '''
-//funzione di suono
-    var player : AVAudioPlayer!
-
+       
+       //funzione di suono
+      
+      var player : AVAudioPlayer!
     func playSound(nameOfSound : String) {
          
             guard let url = Bundle.main.url(forResource: nameOfSound, withExtension: "mp3") else {
